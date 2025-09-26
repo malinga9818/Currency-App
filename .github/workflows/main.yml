@@ -27,7 +27,9 @@ jobs:
       # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm install
+        working-directory: Currency-App
 
       # 4️⃣ Run tests
       - name: Run tests
         run: npm test
+        working-directory: Currency-App
